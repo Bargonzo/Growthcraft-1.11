@@ -1,25 +1,50 @@
 {
+  "forge_marker": 1,
+  "defaults": {
+    "model": "growthcraft_milk:cheese_vat_empty"
+  },
   "variants": {
-    "normal": {
-      "model": "growthcraft_milk:cheese_vat_empty"
+    "rotation": {
+      "north" : {
+      },
+      "south" : {
+      },
+      "east" : {
+      },
+      "west" : {
+      },
+      "up" : {
+      },
+      "down" : {
+      }
     },
-    "rotation=north": {
-      "model": "growthcraft_milk:cheese_vat_empty"
+    "attachnorth" : {
+      "true" : {
+        "submodel" : "growthcraft_milk:cheese_vat_feet_north"
+      },
+      "false" : {
+      }
     },
-    "rotation=south": {
-      "model": "growthcraft_milk:cheese_vat_empty"
+    "attachsouth" : {
+      "true" : {
+        "submodel" : "growthcraft_milk:cheese_vat_feet_south"
+      },
+      "false" : {
+      }
     },
-    "rotation=east": {
-      "model": "growthcraft_milk:cheese_vat_empty"
+    "attacheast" : {
+      "true" : {
+        "submodel" : "growthcraft_milk:cheese_vat_feet_east"
+      },
+      "false" : {
+      }
     },
-    "rotation=west": {
-      "model": "growthcraft_milk:cheese_vat_empty"
-    },
-    "rotation=up": {
-      "model": "growthcraft_milk:cheese_vat_empty"
-    },
-    "rotation=down": {
-      "model": "growthcraft_milk:cheese_vat_empty"
+    "attachwest" : {
+      "true" : {
+        "submodel" : "growthcraft_milk:cheese_vat_feet_west"
+      },
+      "false" : {
+      }
     }
   }
 }
