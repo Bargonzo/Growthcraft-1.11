@@ -34,7 +34,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockGrapeFruit extends GrowthcraftBlockBase {
-	private static final AxisAlignedBB BOUNDING_BOX = new AxisAlignedBB(0.1875F, 0.5F, 0.1875F, 0.8125F, 1.0F, 0.8125F); //(0.0625 * 0, 0.0625 * 0, 0.0625 * 0, 0.0625 * 16, 0.0625 * 16, 0.0625 * 16);
+	private static final AxisAlignedBB BOUNDING_BOX = new AxisAlignedBB(0.1875F, 1.0f/16.0f, 0.1875F, 0.8125F, 1.0F, 0.8125F); //(0.0625 * 0, 0.0625 * 0, 0.0625 * 0, 0.0625 * 16, 0.0625 * 16, 0.0625 * 16);
 
 	private static final PropertyInteger SUBTYPE = BlockGrapeVineBase.SUBTYPE;
 	
